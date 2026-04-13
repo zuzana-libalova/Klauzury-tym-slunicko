@@ -1,3 +1,2 @@
-# Klauzury homotym slunicko
+# 3D_FPS_Template
 
-do tohodle se pak prida unity prjekt ok ok :3
