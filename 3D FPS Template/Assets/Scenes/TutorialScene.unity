@@ -1696,7 +1696,7 @@ PrefabInstance:
       objectReference: {fileID: 629977335}
     - target: {fileID: 2674399614593105116, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.922
+      value: 8.75
       objectReference: {fileID: 0}
     - target: {fileID: 2674399614593105116, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1746,6 +1746,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 722369858}
+    - target: {fileID: 3853318380207832035, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 458
+      objectReference: {fileID: 0}
     - target: {fileID: 4205742873332398542, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1754,10 +1758,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 923507559}
+    - target: {fileID: 4524328516731158338, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 733
+      objectReference: {fileID: 0}
     - target: {fileID: 6655793324408670294, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 629977335}
+    - target: {fileID: 6655793324408670294, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1001
+      objectReference: {fileID: 0}
     - target: {fileID: 6807650316752678482, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1766,6 +1778,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 328733341}
+    - target: {fileID: 8085753957991639639, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1708
+      objectReference: {fileID: 0}
     - target: {fileID: 9053855711011887928, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2802,7 +2818,7 @@ GameObject:
   - component: {fileID: 275626111}
   - component: {fileID: 275626110}
   m_Layer: 0
-  m_Name: CinemachineCamera
+  m_Name: CinemachineCamera.cut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2860,11 +2876,11 @@ Transform:
   m_GameObject: {fileID: 275626109}
   serializedVersion: 2
   m_LocalRotation: {x: 0.11809873, y: -0.7481203, z: 0.13845454, w: 0.6381215}
-  m_LocalPosition: {x: -2.1628366, y: 4.3472576, z: -9.890228}
+  m_LocalPosition: {x: 2.25882, y: 0.8786702, z: 0.35978985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 678294268}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &294456331
 Mesh:
@@ -3432,6 +3448,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 800020347}
+    - target: {fileID: 4641335825018864503, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3113
+      objectReference: {fileID: 0}
     - target: {fileID: 7575249834375849013, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.33
@@ -5121,6 +5141,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1127633467}
+    - target: {fileID: 4641335825018864503, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3113
+      objectReference: {fileID: 0}
     - target: {fileID: 7575249834375849013, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.3263903
@@ -5577,13 +5601,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678294266}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.91882, y: 2.50133, z: -10.64979}
+  m_LocalRotation: {x: -0.048526734, y: 0.29792392, z: -0.37174296, w: 0.8778916}
+  m_LocalPosition: {x: -7.798, y: 4.341, z: -10.242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 275626111}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.834, y: 34.363, z: -43.475}
 --- !u!1 &686180756 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd11a9ebf0cd1944a8309cc9ae0ad794, type: 3}
@@ -5610,8 +5635,10 @@ MonoBehaviour:
   interactKey: 102
   inputInteraction: 1
   hintText: 
-  dialogueText: Hello, this is a dialogue.
-  animator: {fileID: 0}
+  dialog:
+  - Text: 
+  - Text: "\u201CVypad\xE1 to, \u017Ee m\xE1m pravdu\u2026\u201D"
+  - Text: "\u201CCo budu d\u011Blat?! Mus\xEDm o tom \u0159\xEDct spolubydl\xEDc\xEDm\u2026\u201D "
 --- !u!65 &686180761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5649,8 +5676,6 @@ MonoBehaviour:
   interactKey: 102
   inputInteraction: 1
   hintText: 
-  duration: 5
-  camera: {fileID: 1375179068}
 --- !u!95 &686180763
 Animator:
   serializedVersion: 7
@@ -8607,7 +8632,7 @@ Transform:
   m_GameObject: {fileID: 950414153}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2.2503, y: 5.83, z: 4.87}
+  m_LocalPosition: {x: 2.2503, y: 5.83, z: 7.81}
   m_LocalScale: {x: 1, y: 0.6675643, z: 0.88448995}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9626,6 +9651,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1570931427}
+    - target: {fileID: 4641335825018864503, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3113
+      objectReference: {fileID: 0}
     - target: {fileID: 7575249834375849013, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.2
@@ -9893,6 +9922,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 769949664}
+    - target: {fileID: 4641335825018864503, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3113
+      objectReference: {fileID: 0}
     - target: {fileID: 7575249834375849013, guid: 53e95d1520258934fa95b275cef9a9cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.3263903
@@ -14168,6 +14201,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 799530522}
+    - target: {fileID: 3853318380207832035, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 458
+      objectReference: {fileID: 0}
     - target: {fileID: 4205742873332398542, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -14176,10 +14213,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 494323265}
+    - target: {fileID: 4524328516731158338, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 733
+      objectReference: {fileID: 0}
     - target: {fileID: 6655793324408670294, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1215947391}
+    - target: {fileID: 6655793324408670294, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1001
+      objectReference: {fileID: 0}
     - target: {fileID: 6807650316752678482, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -14188,6 +14233,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 613659673}
+    - target: {fileID: 8085753957991639639, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1708
+      objectReference: {fileID: 0}
     - target: {fileID: 8437853479012909118, guid: 18bf3f1d3bad4e34099df3cd532dfbe5, type: 3}
       propertyPath: m_Size.x
       value: 2.8158712
@@ -15396,6 +15445,106 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 825426166}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1941585814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941585818}
+  - component: {fileID: 1941585817}
+  - component: {fileID: 1941585816}
+  - component: {fileID: 1941585815}
+  m_Layer: 0
+  m_Name: Uvod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1941585815
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941585814}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: b9412a3c28195aa4a9dd8f2c49b21943, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References:
+    - d82e7480a80e78f41b2a2a3ac4751a1b: {fileID: 1375179067}
+--- !u!114 &1941585816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941585814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcfefbe671fd654ba6f8480921a081a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  interactTag: Player
+  interactKey: 102
+  inputInteraction: 1
+  hintText: "na zamy\u0161len\xED"
+  dialog:
+  - Text: 
+  - Text: "\u201CCel\xFD m\u016Fj \u017Eivot m\u011B zaj\xEDmaly hv\u011Bzdy.\u201D"
+  - Text: "\u201CVystudoval jsem proto astronomii, a na\u0161el si mal\xE9 obydl\xED
+      na venkov\u011B se 2 spolubydl\xEDc\xEDmi, abych mohl hv\u011Bzdy pozorovat
+      ka\u017Ed\xFD ve\u010Der bez p\u0159ek\xE1\u017Eej\xEDc\xEDho smogu.\u201D "
+  - Text: "\u201CAle\u2026posledn\xED dobou m\u011B n\u011Bco tr\xE1p\xED na slunci.\u201D"
+  - Text: "\u201C\u010Cetl jsem u\u017E spoustu studi\xED o tom, jak hv\u011Bzdy
+      um\xEDraj\xED. P\xE1r jsem jich i napsal.\u201D "
+  - Text: "\u201CA pokud se m\xE9 v\xFDpo\u010Dty nem\xFDl\xED, je pod specifick\xFDmi
+      podm\xEDnkami mo\u017En\xE9, aby hv\u011Bzda samovoln\u011B vybuchla.\u201D"
+--- !u!65 &1941585817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941585814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1941585818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941585814}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.997, y: 3.582, z: -9.12782}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1949339992
 Mesh:
@@ -17396,6 +17545,6 @@ SceneRoots:
   - {fileID: 2097280507}
   - {fileID: 1017781023}
   - {fileID: 1257352494}
-  - {fileID: 275626111}
   - {fileID: 1917514420}
   - {fileID: 678294268}
+  - {fileID: 1941585818}
