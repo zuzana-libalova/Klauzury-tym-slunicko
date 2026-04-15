@@ -36,6 +36,7 @@ namespace FirstPersonController
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
+		public bool CanMove=true;
 
 	
 #if ENABLE_INPUT_SYSTEM
@@ -87,7 +88,7 @@ namespace FirstPersonController
 		{
 			JumpAndGravity();
 			GroundedCheck();
-			Move();
+			if (CanMove) Move();
 		}
 
 		private void LateUpdate()

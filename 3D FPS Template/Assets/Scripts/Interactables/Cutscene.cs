@@ -6,6 +6,7 @@ public class Cutscene : Interactable
 {
     public float duration = 5;
     public PlayableDirector playableDirector;
+    public Dialogue dialogue;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override void Interact(Collider other)
     {
@@ -21,6 +22,7 @@ public class Cutscene : Interactable
             playableDirector.Play();
 
         FindFirstObjectByType<FirstPersonController.FirstPersonController>().CanMove=false;
+       //* dialogue.Interact();
 
         
     }
