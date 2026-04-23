@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0b93fc9a1a9224e86606f90422eac0, type: 3}
   m_Name: PlayerControllerStats
   m_EditorClassIdentifier: Assembly-CSharp::TarodevController.ScriptableStats
-  MoveSpeed: 4
-  SprintSpeed: 6
+  MoveSpeed: 10
+  SprintSpeed: 15
   RotationSpeed: 1
   SpeedChangeRate: 10
   JumpHeight: 1.2
