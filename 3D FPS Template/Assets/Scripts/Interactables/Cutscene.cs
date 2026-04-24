@@ -18,8 +18,10 @@ public class Cutscene : Interactable
     }
     void PlayCutscene()
     {
+        Debug.Log("Cutscene");
         if (playableDirector != null)
             playableDirector.Play();
+        Debug.Log("Cutscene after if");
 
         FindFirstObjectByType<FirstPersonController.FirstPersonController>().CanMove=false;
        //* dialogue.Interact();
