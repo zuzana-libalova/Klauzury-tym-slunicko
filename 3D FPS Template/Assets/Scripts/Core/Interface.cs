@@ -49,9 +49,13 @@ namespace Core
         }
 
         // Function to show health
-        public void ShowHealth(float currentHealth, float maxHealth)
+        public void ShowTime(float TimeInSeconds)
         {
-            if (healthUI != null) healthUI.text = $"Health : {currentHealth}/{maxHealth}";
+            if (healthUI != null) healthUI.text = $"Health : {TimeInSeconds}";
+        }
+        public void ShowHealth(float healt, float healthleft)
+        {
+            if (healthUI != null) healthUI.text = $"Health : {healt/healthleft}";
         }
 
         public void HideDialogue()

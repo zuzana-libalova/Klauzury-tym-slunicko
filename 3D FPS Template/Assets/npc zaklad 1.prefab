@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 888575756523788104}
   - component: {fileID: 6897237729476401186}
   - component: {fileID: 6265938761700191771}
+  - component: {fileID: 5590518635697837634}
   m_Layer: 0
   m_Name: npc zaklad 1
   m_TagString: Untagged
@@ -112,6 +113,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.6045053, y: 1, z: 4.069969}
   m_Center: {x: 0.5542637, y: 0, z: 0.4686699}
+--- !u!114 &5590518635697837634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971875322197819563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5fbe656d390094aad15283a855b8a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Cutscene
+  interactTag: Player
+  interactKey: 102
+  inputInteraction: 0
+  hintText: 
+  duration: 5
+  playableDirector: {fileID: 7878141923315391228}
+  dialogue: {fileID: 0}
 --- !u!1 &1973701359897421928
 GameObject:
   m_ObjectHideFlags: 0
