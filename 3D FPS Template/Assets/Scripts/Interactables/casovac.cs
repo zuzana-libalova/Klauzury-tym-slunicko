@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class casovac : MonoBehaviour
 {
 
-    bool TimeRunning = true;
-    float TimeInSeconds = 10;
+    public bool TimeRunning = true;
+    float TimeInSeconds = 90;
      public Interface timetext;
 
   
