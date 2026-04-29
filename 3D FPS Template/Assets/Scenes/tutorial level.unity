@@ -15806,6 +15806,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6246868625705560549, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.45000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246868625705560549, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.7200003
+      objectReference: {fileID: 0}
     - target: {fileID: 7171158586225836528, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
       propertyPath: m_Name
       value: Core
@@ -17563,7 +17571,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1323543058014989448, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
       propertyPath: sceneName
-      value: main level
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4033991432839132275, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
       propertyPath: m_IsActive
@@ -17572,6 +17580,18 @@ PrefabInstance:
     - target: {fileID: 4541923158177750560, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
       propertyPath: m_Name
       value: ScenePortal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708922305265898063, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
+      propertyPath: m_Size.x
+      value: 2.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708922305265898063, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
+      propertyPath: m_Size.y
+      value: 3.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708922305265898063, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
+      propertyPath: m_Offset.x
+      value: 3.3133513e-14
       objectReference: {fileID: 0}
     - target: {fileID: 6648598377773943795, guid: d8759c19bd0160a449c45dc3d0bdbab2, type: 3}
       propertyPath: m_LocalPosition.x
