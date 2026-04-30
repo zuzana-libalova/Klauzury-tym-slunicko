@@ -51,7 +51,7 @@ namespace Core
         // Function to show health
         public void ShowTime(float TimeInSeconds)
         {
-            if (healthUI != null) healthUI.text = $"Zbývající čas : {TimeInSeconds}";
+            if (healthUI != null) healthUI.text = $"Health : {TimeInSeconds}";
         }
         public void ShowHealth(float healt, float healthleft)
         {
