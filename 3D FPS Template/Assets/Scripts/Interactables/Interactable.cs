@@ -1,5 +1,6 @@
 using System;
 using Core;
+using FirstPersonController;
 using UnityEngine;
 
 public class Interactable : MonoBehaviour
@@ -38,20 +39,30 @@ public class Interactable : MonoBehaviour
 
     private bool playerInRange = false;
     private Collider playerCollider;
+    [SerializeField] private bool interactPressed;
 
     void OnTriggerStay(Collider other)
     {
         // If player is in range and input interaction is required
         if (inputInteraction && playerInRange)
         {
-            // Check for interaction key press
-            if (Input.GetKeyDown(interactKey))
+            if (interactPressed)
             {
+                interactPressed = false;
                 Interact(playerCollider);
             }
         }
     }
-    
+
+    public void Update()
+    {
+        if (!inputInteraction)
+            return;
+        
+        if (Input.GetKeyDown(interactKey))
+            interactPressed = true;
+    }
+
     // When something exits the trigger
     public void OnTriggerExit(Collider other)
     {
