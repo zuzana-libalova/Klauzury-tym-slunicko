@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Casovac : MonoBehaviour
+public class casovac : MonoBehaviour
 {
 
-    public bool TimeRunning = true;
-    float TimeInSeconds = 180;
+   public bool TimeRunning = true;
+    
+    float TimeInSeconds = 10;
      public Interface timetext;
 
   

@@ -5,16 +5,19 @@ using UnityEngine.Playables;
 public class Cutscene : Interactable
 {
     public float duration = 5;
-    public PlayableDirector playableDirector;
+    [SerializeField] Casovac casovac;
+       public PlayableDirector playableDirector;
     public Dialogue dialogue;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override void Interact(Collider other)
     {
         base.Interact(other);
+        casovac.TimeRunning =false;
         PlayCutscene();
         
         // Invoke has a bit strange way of writing - you need to wrap the method name into nameof(MethodName) or just type it as string "MethodName"
         Invoke(nameof(StopCutscene),duration);
+        
     }
     void PlayCutscene()
     {
@@ -22,6 +25,8 @@ public class Cutscene : Interactable
         if (playableDirector != null)
             playableDirector.Play();
         Debug.Log("Cutscene after if");
+        
+
 
         FindFirstObjectByType<FirstPersonController.FirstPersonController>().CanMove=false;
        //* dialogue.Interact();
@@ -31,7 +36,8 @@ public class Cutscene : Interactable
 
     void StopCutscene()
     {
-        FindFirstObjectByType<FirstPersonController.FirstPersonController>().CanMove=true;        
+        FindFirstObjectByType<FirstPersonController.FirstPersonController>().CanMove=true;
+        casovac.TimeRunning=true;        
     }
 }
 
