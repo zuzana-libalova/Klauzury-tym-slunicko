@@ -12,7 +12,7 @@ public class Cutscene : Interactable
     public override void Interact(Collider other)
     {
         base.Interact(other);
-        casovac.TimeRunning =false;
+
         PlayCutscene();
         
         // Invoke has a bit strange way of writing - you need to wrap the method name into nameof(MethodName) or just type it as string "MethodName"
@@ -37,7 +37,7 @@ public class Cutscene : Interactable
     void StopCutscene()
     {
         FindFirstObjectByType<FirstPersonController.FirstPersonController>().CanMove=true;
-        casovac.TimeRunning=true;        
+
     }
 }
 

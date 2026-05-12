@@ -17,6 +17,6 @@ public class Portal : Interactable
     private void OnDrawGizmos() // Shows a debug sphere where to teleport player
     {
         Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(teleportLocation, 0.3f);
+        Gizmos.DrawWireSphere(teleportLocation, 1f);
     }
 }

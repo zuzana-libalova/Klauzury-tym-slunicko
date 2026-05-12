@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: d06ae8521c2a1e8499d8a3f61fda5384, type: 3}
+        m_Texture: {fileID: 2800000, guid: 11fa8e69d7e2a4b4d9c82a73ab784c45, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 884326848b40e4743b93f99f58b2f8a2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 11fa8e69d7e2a4b4d9c82a73ab784c45, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -119,7 +119,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.27811918, g: 0.3490566, b: 0.22556959, a: 1}
     - _Color: {r: 0.27811915, g: 0.34905657, b: 0.22556955, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.13207549, g: 0.101548605, b: 0.101548605, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
