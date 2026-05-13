@@ -8,7 +8,7 @@ public class SunCycle : MonoBehaviour
     public float sunsetTemperature = 2000f;
 
     public float duration = 180f;
-    private float timer = 0f;
+    private float timer = 30f;
 
     void Update()
     {
