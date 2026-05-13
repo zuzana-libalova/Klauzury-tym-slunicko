@@ -56,10 +56,7 @@ namespace Core
             if (healthUI != null) healthUI.text = $"Health : {healt/healthleft}";
         }
 
-         public void ShowTime(float TimeRunning)
-        {
-            if (healthUI != null) healthUI.text = $"Health : {TimeRunning}";
-        }
+    
         public void HideDialogue()
         {
             if (dialogueUI != null) dialogueUI.text = "";

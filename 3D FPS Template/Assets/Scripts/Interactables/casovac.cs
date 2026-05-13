@@ -18,7 +18,7 @@ public class Casovac : MonoBehaviour
         if (TimeRunning)
         {
             TimeInSeconds = TimeInSeconds - Time.deltaTime;
-            timetext.ShowTime(TimeInSeconds);
+            
         }
 
         if (TimeInSeconds <= 0)
