@@ -8,7 +8,7 @@ public class Casovac : MonoBehaviour
 {
 
     public bool TimeRunning = true;
-    float TimeInSeconds = 180;
+    public float TimeInSeconds = 210;
      public Interface timetext;
 
   
