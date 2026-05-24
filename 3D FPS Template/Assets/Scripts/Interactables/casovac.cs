@@ -1,6 +1,7 @@
 using Core;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class Casovac : MonoBehaviour
 {
 
     public bool TimeRunning = true;
+    Counter counter;
     public float TimeInSeconds = 210;
      public Interface timetext;
 
@@ -23,10 +25,14 @@ public class Casovac : MonoBehaviour
 
         if (TimeInSeconds <= 0)
 
-        {
-            SceneManager.LoadScene("EndLevel");
 
+
+        {
+            SceneManager.LoadScene("EndLevel1");
         }
+           
+
+    
 
 
     }

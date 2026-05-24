@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7306520069174084815}
   m_Layer: 0
   m_Name: text
-  m_TagString: Untagged
+  m_TagString: TEXT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,4 +70,5 @@ MonoBehaviour:
   interactKey: 102
   inputInteraction: 0
   hintText: 
+  interactPressed: 0
   dialog: []
