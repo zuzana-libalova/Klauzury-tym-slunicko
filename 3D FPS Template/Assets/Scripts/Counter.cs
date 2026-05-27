@@ -17,7 +17,7 @@ public class Counter : MonoBehaviour
 
             talkedWith++;
 
-            Debug.Log("Unikátní interakce: " + talkedWith);
+            
         }
     }
 }

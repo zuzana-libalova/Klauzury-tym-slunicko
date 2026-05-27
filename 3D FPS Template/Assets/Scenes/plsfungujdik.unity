@@ -30893,6 +30893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   TimeRunning: 1
+  counter: {fileID: 1410307180}
   TimeInSeconds: 260
   timetext: {fileID: 295713898}
 --- !u!114 &955835449
@@ -44377,7 +44378,7 @@ GameObject:
   - component: {fileID: 1410307179}
   - component: {fileID: 1410307180}
   m_Layer: 8
-  m_Name: GameObject
+  m_Name: npcCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
