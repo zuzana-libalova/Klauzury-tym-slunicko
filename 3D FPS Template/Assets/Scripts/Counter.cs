@@ -16,6 +16,7 @@ public class Counter : MonoBehaviour
             countedObjects.Add(other.gameObject);
 
             talkedWith++;
+            Debug.Log ("Interakce číslo" + talkedWith);
 
             
         }
