@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5590518635697837634}
   m_Layer: 0
   m_Name: npc zaklad 1
-  m_TagString: Untagged
+  m_TagString: TEXT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
