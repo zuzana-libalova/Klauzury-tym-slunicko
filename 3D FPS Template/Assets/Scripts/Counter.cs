@@ -5,18 +5,25 @@ public class Counter : MonoBehaviour
 {
     public int talkedWith = 0;
 
-    
-    
+    private HashSet<GameObject> countedObjects = new HashSet<GameObject>();
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log ("Testing");
-        if (other.CompareTag("TEXT"))
+        if (!other.CompareTag("TEXT"))
+            return;
+        if (!countedObjects.Contains(other.gameObject))
         {
-            talkedWith++;
-            Debug.Log ("Interakce číslo" + talkedWith);
+            countedObjects.Add(other.gameObject);
 
-            
+            talkedWith++;
+
+            Debug.Log ("Interakce číslo" + talkedWith);
+        
+                
         }
+
+ 
+
+
     }
 }
