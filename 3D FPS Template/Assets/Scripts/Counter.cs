@@ -10,9 +10,15 @@ public class Counter : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("TEXT"))
+        {
+            Debug.Log("není NPC");
             return;
+        }
+            
         if (!countedObjects.Contains(other.gameObject))
         {
+            Debug.Log("je NPC");
+
             countedObjects.Add(other.gameObject);
 
             talkedWith++;
