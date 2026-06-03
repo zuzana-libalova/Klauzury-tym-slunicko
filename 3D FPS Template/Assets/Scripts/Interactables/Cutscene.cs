@@ -8,11 +8,22 @@ public class Cutscene : Interactable
     [SerializeField] Casovac casovac;
        public PlayableDirector playableDirector;
     public Dialogue dialogue;
+    public Counter counter;
+    public int npcNumber = 1;
+    bool talked = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     public override void Interact(Collider other)
     {
         base.Interact(other);
 
+        if (!talked)
+        {
+            talked = true;
+            counter.talkedWith = counter.talkedWith + npcNumber;
+
+        }
         PlayCutscene();
         
         // Invoke has a bit strange way of writing - you need to wrap the method name into nameof(MethodName) or just type it as string "MethodName"

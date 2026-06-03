@@ -70,4 +70,5 @@ MonoBehaviour:
   interactKey: 102
   inputInteraction: 0
   hintText: 
+  interactPressed: 0
   dialog: []

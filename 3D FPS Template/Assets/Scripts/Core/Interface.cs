@@ -31,9 +31,9 @@ namespace Core
         }
 
         // Function to show score
-        public void ShowScore(int score)
+        public void ShowScore(int talkedWith)
         {
-            if (scoreUI != null) scoreUI.text = score.ToString();
+            if (scoreUI != null) scoreUI.text = "Sousedé: " + talkedWith.ToString() + "/8";
         }
 
         // Function to show hint text
