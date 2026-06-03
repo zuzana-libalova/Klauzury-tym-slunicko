@@ -9,7 +9,9 @@ public class Cutscene : Interactable
        public PlayableDirector playableDirector;
     public Dialogue dialogue;
     public Counter counter;
+    public int npcNumber = 1;
     bool talked = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     public override void Interact(Collider other)
@@ -19,7 +21,7 @@ public class Cutscene : Interactable
         if (!talked)
         {
             talked = true;
-            counter.talkedWith++;
+            counter.talkedWith = counter.talkedWith + npcNumber;
 
         }
         PlayCutscene();

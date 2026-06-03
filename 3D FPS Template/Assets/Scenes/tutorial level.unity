@@ -3476,6 +3476,8 @@ MonoBehaviour:
   casovac: {fileID: 0}
   playableDirector: {fileID: 586662420}
   dialogue: {fileID: 0}
+  counter: {fileID: 0}
+  npcNumber: 1
 --- !u!1001 &249046322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4387,6 +4389,8 @@ MonoBehaviour:
   casovac: {fileID: 0}
   playableDirector: {fileID: 722256807}
   dialogue: {fileID: 0}
+  counter: {fileID: 0}
+  npcNumber: 1
 --- !u!65 &289699477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5767,19 +5771,19 @@ MonoBehaviour:
   hintText: "na zamy\u0161len\xED"
   interactPressed: 0
   dialog:
-  - Text: "MC: \u201CCel\xFD m\u016Fj \u017Eivot m\u011B zaj\xEDmaly hv\u011Bzdy.\u201D"
-  - Text: "MC: \u201CVystudoval jsem proto astronomii, a na\u0161el si mal\xE9 obydl\xED
-      na venkov\u011B se 2 spolubydl\xEDc\xEDmi"
-  - Text: "MC:Jinak bych nemohl hv\u011Bzdy pozorovat ka\u017Ed\xFD ve\u010Der bez
-      p\u0159ek\xE1\u017Eej\xEDc\xEDho smogu.\u201D"
-  - Text: "MC: \u201CAle\u2026posledn\xED dobou m\u011B n\u011Bco tr\xE1p\xED na
-      slunci.\u201D"
-  - Text: "MC: \u201C\u010Cetl jsem u\u017E spoustu studi\xED o tom, jak hv\u011Bzdy
-      um\xEDraj\xED. P\xE1r jsem jich i napsal.\u201D"
-  - Text: "\u201CA pokud se m\xE9 v\xFDpo\u010Dty nem\xFDl\xED, je pod specifick\xFDmi
-      podm\xEDnkami mo\u017En\xE9, aby hv\u011Bzda samovoln\u011B vybuchla.\u201D"
-  - Text: "MC: \u201C...Boj\xEDm se, \u017Ee brzo se tohle stane se sluncem.\u201D"
-  - Text: "MC: \u201CM\u011Bl bych se je\u0161t\u011B jednou kouknout p\u0159es teleskop.\u201D"
+  - Text: "Astronom: Cel\xFD m\u016Fj \u017Eivot m\u011B zaj\xEDmaly hv\u011Bzdy."
+  - Text: "Astronom: Na\u0161el jsem si proto mal\xE9 obydl\xED na venkov\u011B se
+      2 spolubydl\xEDc\xEDmi."
+  - Text: "Astronom: To abych mohl pozorovat hv\u011Bzdy ka\u017Ed\xFD ve\u010Der
+      bez m\u011Bststk\xE9hoho smogu."
+  - Text: "Astronom: Ale\u2026posledn\xED dobou m\u011B n\u011Bco tr\xE1p\xED na
+      slunci."
+  - Text: "Astronom: \u010Cetl jsem u\u017E spoustu studi\xED o tom, jak hv\u011Bzdy
+      um\xEDraj\xED. P\xE1r jsem jich i napsal."
+  - Text: "Astronom: A pokud se m\xE9 v\xFDpo\u010Dty nem\xFDl\xED, je pod specifick\xFDmi
+      podm\xEDnkami mo\u017En\xE9, aby hv\u011Bzda samovoln\u011B vybuchla."
+  - Text: "Astronom: ...Boj\xEDm se, \u017Ee brzo se tohle stane se sluncem."
+  - Text: "Astronom: M\u011Bl bych se je\u0161t\u011B jednou kouknout p\u0159es teleskop."
 --- !u!65 &409650376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10489,6 +10493,8 @@ MonoBehaviour:
   casovac: {fileID: 0}
   playableDirector: {fileID: 678294267}
   dialogue: {fileID: 0}
+  counter: {fileID: 0}
+  npcNumber: 1
 --- !u!1 &693001326
 GameObject:
   m_ObjectHideFlags: 0
@@ -14728,6 +14734,8 @@ MonoBehaviour:
   casovac: {fileID: 0}
   playableDirector: {fileID: 215626054}
   dialogue: {fileID: 0}
+  counter: {fileID: 0}
+  npcNumber: 1
 --- !u!65 &957835709
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24106,11 +24114,11 @@ MonoBehaviour:
   interactPressed: 0
   dialog:
   - Text: "Filip: \u010Cus, jak to jde? Vypad\xE1\u0161 vystresovan\u011B."
-  - Text: "MC: Ahoj Filipe...no...ono to vypad\xE1 \u017Ee brzy vybuchne slunce...nevim
+  - Text: "Astronom: Ahoj Filipe...no...ono to vypad\xE1 \u017Ee brzy vybuchne slunce...nevim
       co d\u011Blat..."
-  - Text: "Filip: Jo tak to zajdi za milanem. On o konci sv\u011Bta bl\xE1bol\xED
+  - Text: "Filip: Jo tak to zajdi za Milanem. On o konci sv\u011Bta bl\xE1bol\xED
       furt, tak\u017Ee ten ti asi porad\xED."
-  - Text: "MC: D\xEDky, zept\xE1m se ho."
+  - Text: "Astronom: D\xEDky, zept\xE1m se ho."
 --- !u!4 &1595988410
 Transform:
   m_ObjectHideFlags: 0
@@ -28619,6 +28627,8 @@ MonoBehaviour:
   casovac: {fileID: 0}
   playableDirector: {fileID: 1941585820}
   dialogue: {fileID: 409650375}
+  counter: {fileID: 0}
+  npcNumber: 1
 --- !u!43 &1947459131
 Mesh:
   m_ObjectHideFlags: 0
@@ -31577,7 +31587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7306520069174084815, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: 'MC: Ahoj Milane, um, jak se m-'
+      value: 'Astronom: Ahoj Milane, um, jak se m-'
       objectReference: {fileID: 0}
     - target: {fileID: 7306520069174084815, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
       propertyPath: dialog.Array.data[1].Text
@@ -31600,7 +31610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7306520069174084815, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
       propertyPath: dialog.Array.data[5].Text
-      value: 'MC: ...Ok??'
+      value: 'Astronom: ...Ok??'
       objectReference: {fileID: 0}
     - target: {fileID: 7306520069174084815, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
       propertyPath: dialog.Array.data[6].Text

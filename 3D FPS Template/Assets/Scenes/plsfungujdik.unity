@@ -7090,6 +7090,12 @@ PlayableDirector:
     value: {fileID: 1497307050}
   - key: {fileID: -5900154362693638908, guid: 050316c070de6cb419654cdfbbc346a5, type: 2}
     value: {fileID: 72934290}
+  - key: {fileID: 3895038935556551870, guid: 050316c070de6cb419654cdfbbc346a5, type: 2}
+    value: {fileID: 526417539}
+  - key: {fileID: -6371727420938376902, guid: 050316c070de6cb419654cdfbbc346a5, type: 2}
+    value: {fileID: 883226934}
+  - key: {fileID: -4406875964878490530, guid: 050316c070de6cb419654cdfbbc346a5, type: 2}
+    value: {fileID: 768834753}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &220176615
@@ -8953,13 +8959,17 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -10.641236
       objectReference: {fileID: 0}
+    - target: {fileID: 5583601488651574897, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7306520069174084815, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
       propertyPath: dialog.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7306520069174084815, guid: f821ec93dd19bc34485a6894a1617dd5, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: (zahral sis basket se sousedem)
+      value: "(zahr\xE1l sis basket se sousedem)"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28232,6 +28242,11 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &883226934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 0466956772259a74897d41747dd43d10, type: 3}
+  m_PrefabInstance: {fileID: 2050349104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &885071301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8856289cbfc204f4faae625289a5f8ea, type: 3}
@@ -29194,19 +29209,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: 'MC: cus bro skonci svet'
+      value: "Astronom: Ahoj, mus\xEDm ti \u0159\xEDct \u017Ee skon\u010D\xED sv\u011Bt.
+        Vybuchne slunce."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: "Baske\u0165\xE1k: ale ne ja jsem jeste chtel hrat basket :("
+      value: "Baske\u0165\xE1k: Ale ne j\xE1 jsem je\u0161t\u011B cht\u011Bl hr\xE1t
+        basket... :("
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: "MC: mo\u017En\xE1 bych si s tebou mohl rychle zahrat"
+      value: "Astronom: Mo\u017En\xE1 bych si s tebou mohl rychle zahr\xE1t, je\u0161t\u011B
+        p\xE1r minut asi m\xE1m."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: "Baske\u0165\xE1k: Jupi to bych byl rad, jestli chce\u0161 tak "
+      value: "Baske\u0165\xE1k: Jup\xED to bych byl r\xE1d, jestli chce\u0161 tak
+        vem ten m\xED\u010D za sebou!"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
@@ -29255,7 +29274,7 @@ PrefabInstance:
     - target: {fileID: 7878141923315391228, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
-      objectReference: {fileID: 526417539}
+      objectReference: {fileID: 0}
     - target: {fileID: 8575361564480921416, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: m_Size.x
       value: 3.6169586
@@ -30796,20 +30815,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: "MC: ahoj skonci svet, za p\xE1r minut vybuchne slunce"
+      value: "Astronom: Ahoj skon\u010D\xED sv\u011Bt, za p\xE1r minut vybuchne slunce."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: "Sportovec: ja ti d\xE1m ze vybuchne slunce TY SLIM\xC1KU. JA TO SLUNCE
-        CHYTIM A HODIM HO ZPATKY!!!! "
+      value: "Sportovec: J\xE1 ti d\xE1m ze vybuchne slunce TY SLIM\xC1KU. JA TO
+        SLUNCE CHYTIM A HODIM HO ZP\xC1TKY!!!! "
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: "Sportovec: Na to mam svoje ru\u010Dn\u011B vyd\u0159en\xFD svaly!!"
+      value: "Sportovec: Na to m\xE1m svoje ru\u010Dn\u011B vyd\u0159en\xFD svaly!!"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: "MC: No...j\xE1 od jednoho t\xFDpka sly\u0161el \u017Ee berete steroidy"
+      value: "Astronom: No...j\xE1 od jednoho t\xFDpka sly\u0161el \u017Ee berete
+        steroidy..."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
@@ -30827,7 +30847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[7].Text
-      value: "MC: Jasn\u011B, d\xEDky \u017Ees mi o n\u011Bm \u0159ek"
+      value: "Astronom: Jasn\u011B, d\xEDky \u017Ees mi o n\u011Bm \u0159ek"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[8].Text
@@ -32248,6 +32268,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8856289cbfc204f4faae625289a5f8ea, type: 3}
+--- !u!114 &981794548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4219575593730346744, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+  m_PrefabInstance: {fileID: 2006836429}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &983241360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: afad9fa6aff2c6a428a837e4cff04b73, type: 3}
@@ -46051,6 +46082,10 @@ PrefabInstance:
       propertyPath: counter
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5590518635697837634, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
+      propertyPath: npcNumber
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5751778030529901038, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -46089,21 +46124,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: "milan:  te\u010F pe\u010Dliv\u011B poslouchej co ti m\xE1m \u0159\xEDct."
+      value: "Milan:  Te\u010F pe\u010Dliv\u011B poslouchej co ti m\xE1m \u0159\xEDct."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: "milan: v\u011Bt\u0161ina soused\u016F je te\u010F v pr\xE1ci, ale 8
+      value: "Milan: V\u011Bt\u0161ina soused\u016F je te\u010F v pr\xE1ci, ale 8
         jich tu z\u016Fstalo."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: "milan: najdi je, a po\u0159\xE1dn\u011B poslouchej to, co ti cht\u011Bj\xED
+      value: "Milan: Najdi je, a po\u0159\xE1dn\u011B poslouchej to, co ti cht\u011Bj\xED
         \u0159\xEDct, mo\u017En\xE1 ti daj\xED radu."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: "milan: v\u0161echny je varuj, a vrat se predtim, nez zrudne svetlo."
+      value: "milan: V\u0161echny je varuj, a vra\u0165 se p\u0159edt\xEDm, ne\u017E
+        zrudne sv\u011Btlo."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
@@ -47466,13 +47502,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497307050}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14137563, y: -0.7079344, z: 0.14806324, w: 0.6759579}
-  m_LocalPosition: {x: 30.420004, y: 21.84, z: 15.140006}
+  m_LocalRotation: {x: 0.25847927, y: -0.67068017, z: 0.27070647, w: 0.6403864}
+  m_LocalPosition: {x: 27.640005, y: 28.81, z: 9.229997}
   m_LocalScale: {x: 2.5632484, y: 2.5632482, z: 2.5632482}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 220176615}
-  m_LocalEulerAnglesHint: {x: 23.626, y: -92.647, z: 0}
+  m_LocalEulerAnglesHint: {x: 43.961, y: -92.647, z: 0}
 --- !u!114 &1497307052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48465,32 +48501,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: "Dobry den jak se m\xE1te? Zrovna jsem tady vyklidila kostel."
+      value: "Babi\u010Dka: Dobr\xFD den jak se m\xE1te? Zrovna jsem tady vyklidila
+        kostel."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: Dobry den skonci svet dneska. Vybuchne slunce.
+      value: "Astronom: Dobr\xFD den, skon\u010D\xED sv\u011Bt dneska. Vybuchne slunce."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: "To neni tak zl\xE9, b\u016Fh n\xE1m seslal tuhle sp\xE1su."
+      value: "Babi\u010Dka: To neni tak zl\xE9, b\u016Fh n\xE1m seslal tuhle sp\xE1su."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: "ooooh bo\u017Ee d\u011Bkuji ti za tento dar, kone\u010Dn\u011B m\xE1
-        du\u0161e pozn\xE1 nebesk\xE9 m\xEDsto\u2026"
+      value: "Babi\u010Dka: Ooooh bo\u017Ee, d\u011Bkuji ti za tento dar, kone\u010Dn\u011B
+        m\xE1 du\u0161e pozn\xE1 nebesk\xE9 m\xEDsto\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
-      value: 
+      value: (varoval jsi babicku)
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[5].Text
-      value: (varoval jsi babicku)
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[6].Text
@@ -53206,36 +53243,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.size
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: "MC: Ahoj skonci svet...pane jste v pohod\u011B??"
+      value: "Astronom: Ahoj skon\u010D\xED sv\u011Bt...pane jste v pohod\u011B??"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: "Dealer: mn\u011B je to jedno, nemas gram? :///"
+      value: "Mn\u011B je to jedno, jdou mi dob\u0159e obchody."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: 'MC: ne '
+      value: "Dealer: Nechce\u0161 koupit gram? :///"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: 'Dealer: nechces koupit gram? :///'
+      value: 'Astronom: Ne.'
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
-      value: 'MC: ne'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
-      propertyPath: dialog.Array.data[5].Text
       value: "Dealer: Tak nic no. \u0158ekni Milanovi \u017Ee ho pozdravuju."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
+      propertyPath: dialog.Array.data[5].Text
+      value: "(varoval jsi dealera, ale nejse\u0161 si jisty jestli mu na tom \xFApln\u011B
+        z\xE1le\u017E\xED.)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[6].Text
-      value: (varoval jsi fetackeho souseda, ale nejses si jisty jestli mu na tom
-        uplne zalezi)
+      value: 'MC: ne '
       objectReference: {fileID: 0}
     - target: {fileID: 6897237729476401186, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -54935,6 +54972,10 @@ PrefabInstance:
       propertyPath: counter
       value: 
       objectReference: {fileID: 1410307180}
+    - target: {fileID: 5590518635697837634, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
+      propertyPath: npcNumber
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5751778030529901038, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -54961,23 +55002,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: hej bro konci svet
+      value: "Astronom: Ahoj, za p\xE1r minut skon\u010D\xED sv\u011Bt. konci svet"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: ok jdu se poprat s chabrem
+      value: "Soused 1: Co to kec\xE1\u0161? To je nejv\u011Bt\u0161\xED blbost,
+        co jsem kdy sly\u0161el."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: ne ja se s tebou nechci prat jdu domu
+      value: "Soused 2: Po\u010Dkej, na tom n\u011Bco bude, mn\u011B Milan \u0159\xEDkal
+        u\u017E p\u0159edt\xEDm, \u017Ee to asi bouchne."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: (varoval jsi 2 sousedy)
+      value: "Soused 1: K\xE1mo, nesm\xED\u0161 v\u011B\u0159it tomu debilovi! Docela
+        bych ti dal facku za tohle."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
+      propertyPath: dialog.Array.data[4].Text
+      value: "Soused 2: Ne e k\xE1mo, \u017E\xE1dn\xE1 facka nebude, jdu vyp\xEDt
+        v\u0161echno pivo co m\xE1m doma."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
+      propertyPath: dialog.Array.data[5].Text
+      value: (varoval jsi 2 sousedy najednou.)
       objectReference: {fileID: 0}
     - target: {fileID: 6897237729476401186, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -56481,6 +56534,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df84e13f27078fb429431fcddf8b4b42, type: 3}
+--- !u!1 &1791207442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 500f60386325cdb49803870a4ba7f9f0, type: 3}
+  m_PrefabInstance: {fileID: 1960738999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1791207443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791207442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.01769319, y: 0.03680113, z: 0.01179157}
+  m_Center: {x: 0, y: -0.0013508907, z: 0.0052391062}
 --- !u!1001 &1791239679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59110,31 +59189,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: ahoj skonci svet
+      value: "Astronom: Ahoj, za p\xE1r minut skon\u010D\xED sv\u011Bt."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: oki mne je to jedno ja jsem spokojenej
+      value: "Soused: Ok, mn\u011B je to jedno, j\xE1 jsem spokojenej, m\xE1m doma
+        uklizeno. :)"
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: ale tam vzadu je jeden sportovec kterej se sebou vubec neni spokojenej
+      value: "Soused: Ale tam vzadu je jeden sportovec kterej se sebou v\u016Fbec
+        nen\xED spokojenej."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: rika jak hrozne cvici ale ja ho videl kupovat steroidy
+      value: "Soused: \u0158\xEDk\xE1 jak hrozn\u011B cvi\u010D\xED ale j\xE1 ho
+        vid\u011Bl kupovat steroidy."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
-      value: pak bys mohl za nim zajit
+      value: "Soused: Pak byste za n\xEDm mohl zaj\xEDt."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[5].Text
-      value: ok i guess
+      value: 'Astronom: Tak jo.'
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[6].Text
-      value: (varoval jsi chill souseda)
+      value: "(varoval jsi spokojen\xE9ho souseda)"
       objectReference: {fileID: 0}
     - target: {fileID: 6897237729476401186, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -62707,7 +62789,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 500f60386325cdb49803870a4ba7f9f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1791207443}
   m_SourcePrefab: {fileID: 100100000, guid: 500f60386325cdb49803870a4ba7f9f0, type: 3}
 --- !u!1 &1968279628
 GameObject:
@@ -65084,6 +65169,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 867819442244607341, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 882664169818059344, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: scoreUI
+      value: 
+      objectReference: {fileID: 981794548}
     - target: {fileID: 1493377027707604672, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -65191,6 +65284,22 @@ PrefabInstance:
     - target: {fileID: 3695561094663672926, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806397975393323818, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806397975393323818, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806397975393323818, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 293.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806397975393323818, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -646
       objectReference: {fileID: 0}
     - target: {fileID: 6242817933326068195, guid: 78aaf0d6152718845b8143642be35c2e, type: 3}
       propertyPath: m_Height
@@ -66726,7 +66835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0466956772259a74897d41747dd43d10, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -70327,6 +70436,7 @@ MonoBehaviour:
   playableDirector: {fileID: 220176614}
   dialogue: {fileID: 0}
   counter: {fileID: 0}
+  npcNumber: 0
 --- !u!4 &2105155323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0466956772259a74897d41747dd43d10, type: 3}
@@ -70466,28 +70576,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[0].Text
-      value: 'MC: ahoj vybuchne slunce'
+      value: 'Astronom: Ahoj, vybuchne slunce.'
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[1].Text
-      value: 'Sousedka: ale ne a co hudba :( to neni fer'
+      value: "Sousedka: Ale ne a co hudba :( to neni f\xE9r."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[2].Text
-      value: 'MC: neni no'
+      value: "Astronom: No nen\xED."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[3].Text
-      value: 'Sousedka: mohl byste rovnou prosim varovat moji babicku? Ona ted vyklizi
-        kostel'
+      value: "Sousedka: Mohl byste rovnou prosim varovat moj\xED babi\u010Dku? Ona
+        ted vykl\xEDz\xED kostel."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[4].Text
-      value: 'MC: Samozrejme'
+      value: "Astronom: Samoz\u0159ejm\u011B."
       objectReference: {fileID: 0}
     - target: {fileID: 6852468015026750966, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: dialog.Array.data[5].Text
-      value: (varoval jsi hudebni sousedku)
+      value: "(varoval jsi hudebn\xED sousedku)"
       objectReference: {fileID: 0}
     - target: {fileID: 6897237729476401186, guid: f3531b9a2b205574bb11c1555e2a8e6b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
